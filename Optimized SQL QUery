@@ -1,0 +1,6 @@
+CREATE INDEX idx_productname
+ON Products(ProductName);
+
+SELECT ProductName, Price
+FROM Products
+WHERE ProductName = 'Laptop';
