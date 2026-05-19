@@ -1,0 +1,10 @@
+SELECT * 
+FROM Products;
+
+SELECT ProductName, StockQuantity
+FROM Products
+WHERE StockQuantity > 50;
+
+SELECT ProductName, Price
+FROM Products
+ORDER BY Price DESC;
