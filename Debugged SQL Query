@@ -1,0 +1,7 @@
+-- Original Query
+SELECT ProductName Price
+FROM Products;
+
+-- Corrected Query
+SELECT ProductName, Price
+FROM Products;
